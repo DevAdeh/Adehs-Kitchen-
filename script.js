@@ -1,14 +1,13 @@
 const foods = [
-  { name: "Jollof Rice & Chicken", price: "₦3,500", category: "Rice", img: "https://placehold.co/400x250/D9A441/0F1B12?text=Jollof" },
-  { name: "Fried Rice & Turkey", price: "₦4,000", category: "Rice", img: "https://placehold.co/400x250/C0392B/F5EFE6?text=Fried+Rice" },
-  { name: "Egusi Soup & Fufu", price: "₦3,000", category: "Soups", img: "https://placehold.co/400x250/D9A441/0F1B12?text=Egusi" },
-  { name: "Grilled Steak Special", price: "₦6,500", category: "Grills", img: "https://placehold.co/400x250/C0392B/F5EFE6?text=Steak" },
-  { name: "Ofada Rice & Stew", price: "₦3,500", category: "Rice", img: "https://placehold.co/400x250/D9A441/0F1B12?text=Ofada" },
-  { name: "Afang Soup & Semo", price: "₦3,200", category: "Soups", img: "https://placehold.co/400x250/C0392B/F5EFE6?text=Afang" },
-  { name: "Small Chops Pack", price: "₦2,500", category: "Small Chops", img: "https://placehold.co/400x250/D9A441/0F1B12?text=Small+Chops" },
-  { name: "Event Catering", price: "From ₦150k", category: "Catering", img: "https://placehold.co/400x250/C0392B/F5EFE6?text=Catering" },
+  { name: "Jollof Rice & Chicken", price: "₦3,500", category: "Rice", img: "assets/jollof.png" },
+  { name: "Fried Rice & Turkey", price: "₦4,000", category: "Rice", img: "assets/fried.png" },
+  { name: "Egusi Soup & Fufu", price: "₦3,000", category: "Soups", img: "assets/egusi.png" },
+  { name: "Grilled Steak Special", price: "₦6,500", category: "Grills", img: "assets/steak.png" },
+  { name: "Ofada Rice & Stew", price: "₦3,500", category: "Rice", img: "assets/ofada.png" },
+  { name: "Afang Soup & Semo", price: "₦3,200", category: "Soups", img: "assets/afang.png" },
+  { name: "Small Chops Pack", price: "₦2,500", category: "Small Chops", img: "assets/chops.png" },
+  { name: "Event Catering", price: "From ₦150k", category: "Catering", img: "assets/catering.png" },
 ];
-
 const categories = ["All", ...new Set(foods.map(f => f.category))];
 const filterDiv = document.getElementById('filterButtons');
 const grid = document.getElementById('menuGrid');

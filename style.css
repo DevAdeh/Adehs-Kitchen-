@@ -1,10 +1,10 @@
 :root {
-  --bg-dark: #262262;
-  --bg-card: #16261A;
-  --gold: #D9A441;
-  --red: #C0392B;
-  --cream: #F5EFE6;
-  --text-muted: #A8AFA3;
+ --bg-dark: #241C15;
+--bg-card: #33281D;
+--gold: #C97C3D;   /* copper */
+--red: #A13D2C;
+--cream: #F2E9DD;
+--text-muted: #A99A88;
 }
 
 * {
