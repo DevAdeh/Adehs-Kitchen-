@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reserve a Table - Adeh's Kitchen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <p class="logo">ADEH'S <span>KITCHEN</span></p>
+  </nav>
+
+  <section class="reserve-section">
+    <p class="eyebrow center">Book A Table</p>
+    <h1 class="section-title">Reserve Your Spot</h1>
+    <p class="subtitle">Pick a date, time, and party size — we'll take care of the rest.</p>
+
+    <form id="reservationForm" class="reservation-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required placeholder="e.g. Adeola Ejikunle">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" required placeholder="e.g. 09159627267">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date" required>
+        </div>
+
+        <div class="form-group">
+          <label for="time">Time</label>
+          <select id="time" required>
+            <option value="">Select a time</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" min="1" max="12" value="2" required>
+      </div>
+
+      <button type="submit" class="btn-primary">Confirm Reservation</button>
+    </form>
+
+    <!-- Confirmation message, hidden until form is submitted -->
+    <div id="confirmation" class="confirmation hidden">
+      <h2>🎉 Reservation Confirmed!</h2>
+      <p id="confirmationDetails"></p>
+      <button id="newReservationBtn" class="btn-secondary">Make Another Reservation</button>
+    </div>
+  </section>
+
+  <footer>
+    <p class="footer-brand">Adeh's Kitchen</p>
+    <p>📍 University of Ibadan, Ibadan &nbsp;|&nbsp; 📞 09165924915</p>
+    <p class="credit">Coded by <a href="https://github.com/DevAdeh">DevAdeh</a></p>
+  </footer>
+
+<script src="reserve.js"></script>
+</body>
+</html>

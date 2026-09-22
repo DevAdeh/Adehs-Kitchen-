@@ -46,7 +46,7 @@ function renderMenu(list) {
 }
 
 function orderOnWhatsApp(foodName) {
-  const number = "09159627267";
+  const number = "09165924915";
   const message = `Hello Adeh's Kitchen, I want to order ${foodName}`;
   window.open(`https://wa.me/234${number.substring(1)}?text=${encodeURIComponent(message)}`, '_blank');
 }
