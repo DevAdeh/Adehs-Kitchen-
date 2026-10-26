@@ -9,7 +9,7 @@ A restaurant landing page with a filterable menu and WhatsApp ordering, plus a t
 
 Solution link: [https://github.com/DevAdeh/Adeh-s-Kitchen-.git]
 
-Live link: [https://your-live-link-here.vercel.app/]
+Live link: [https://adehs-kitchen.vercel.app/]
 
 ## Features
 - Menu filtering by category (Rice, Soups, Grills, Small Chops, Catering)
